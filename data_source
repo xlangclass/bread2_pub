@@ -1,0 +1,22 @@
+{
+      "0": {
+         "type": "경비직",
+         "to_company": "샘플",
+         "to_addr": "iwodus@naver.com",
+         "subject": "샘플 이메일 제목입니다.",
+         "contents": "샘플 본문 내용입니다.",
+         "replace_words": '[("분양가 상한제", "분양가상한제"), ("주거안정", "주거 안정")]',
+         "template_filename": "구인신청서양식(경비원).hwp",
+         "out_filename": "구인_신청서.hwp"
+      },
+      "1": {
+         "type": "경비직",
+         "to_company": "포탈이름",
+         "to_addr": "iwodus@naver.com",
+         "subject": "1이메일 제목입니다.",
+         "contents": "1본문 내용입니다.",
+         "replace_words": '[("분양가 상한제", "분양가상한제"), ("주거안정", "주거 안정")]',
+         "template_filename": "구인신청서양식(경비원).hwp",
+         "out_filename": "구인_신청서.hwp"
+      },
+}
