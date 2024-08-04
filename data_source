@@ -1,4 +1,5 @@
 {
+      "key": "1",
       "0": {
          "type": "경비직",
          "to_company": "샘플",
@@ -10,12 +11,22 @@
          "out_filename": "구인_신청서.hwp"
       },
       "1": {
-         "type": "경비직",
-         "to_company": "포탈이름",
+         "type": "미화",
+         "to_company": "워크넷",
          "to_addr": "iwodus@naver.com",
          "subject": "1이메일 제목입니다.",
          "contents": "1본문 내용입니다.",
-         "replace_words": '[("분양가 상한제", "분양가상한제"), ("주거안정", "주거 안정")]',
+         "replace_words": '[("모집직종_1", "미화"), ("임금_1", "1,000,000"), ("아파트명_1", "꽃매버들지능"), ("근무시간_1", "09:00~16:00")]',
+         "template_filename": "구인신청서양식(경비원).hwp",
+         "out_filename": "구인_신청서.hwp"
+      },
+      "2": {
+         "type": "경비",
+         "to_company": "워크넷",
+         "to_addr": "iwodus@naver.com",
+         "subject": "1이메일 제목입니다.",
+         "contents": "1본문 내용입니다.",
+         "replace_words": '[("모집직종_1", "경비"), ("임금_1", "1,000,000"), ("아파트명_1", "꽃매버들지능"), ("근무시간_1", "09:00~16:00")]',
          "template_filename": "구인신청서양식(경비원).hwp",
          "out_filename": "구인_신청서.hwp"
       },
