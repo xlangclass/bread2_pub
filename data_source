@@ -7,7 +7,7 @@
          "subject": "샘플 이메일 제목입니다.",
          "contents": "샘플 본문 내용입니다.",
          "replace_words": "주거안정",
-         "template_filename": "구인신청서양식(경비원).hwp",
+         "template_filename": "구인신청서양식.hwp",
          "out_filename": "구인_신청서.hwp"
       },
       "1": {
