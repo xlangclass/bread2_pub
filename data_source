@@ -1,36 +1,25 @@
 [
     {
-        "files": 0, 
-        "data": [
-            {"name": "RFC", "value": "XXXXXXX", "attId": 01}, 
-            {"name": "NOMBRE", "value": "JOSE", "attId": 02}, 
-            {"name": "APELLIDO PATERNO", "value": "MONTIEL", "attId": 03}, 
-            {"name": "APELLIDO MATERNO", "value": "MENDOZA", "attId": 04}, 
-            {"name": "FECHA NACIMIENTO", "value": "1989-02-04", "attId": 05}
-        ], 
-        "dirId": 1, 
-        "docId": 4, 
-        "structure": {
-            "name": "personales", 
-            "folioId": 22
-        }
-    }, 
-    {
-        "files": 0, 
-        "data": [
-            {"name": "CALLE", "value": "AMOR", "attId": 06}, 
-            {"name": "No. EXTERIOR", "value": "4", "attId": 07}, 
-            {"name": "No. INTERIOR", "value": "2", "attId": 08}, 
-            {"name": "C.P.", "value": "55060", "attId": 09}, 
-            {"name": "ENTIDAD", "value": "ESTADO DE MEXICO", "attId": 10}, 
-            {"name": "MUNICIPIO", "value": "ECATEPEC", "attId": 11}, 
-            {"name": "COLONIA", "value": "INDUSTRIAL", "attId": 12}
-            ], 
-        "dirId": 1, 
-        "docId": 4, 
-        "structure": {
-            "name": "direccion", 
-            "folioId": 22
-        }
+        "target": 1, 
+        "1":{
+         "type": "경비",
+         "to_company": "워크넷",
+         "to_addr": "iwodus@naver.com",
+         "subject": "1이메일 제목입니다.",
+         "contents": "1본문 내용입니다.",
+         "replace_words": [("모집직종_1", "경비"), ("임금_1", "3,000,000"), ("아파트명_1", "꽃매버들지능"), ("근무시간_1", "09:00~16:00")],
+         "template_filename": "구인신청서양식.hwp",
+         "out_filename": "구인_신청서.hwp"
+         }, 
+        "2":{
+         "type": "경비",
+         "to_company": "워크넷",
+         "to_addr": "iwodus@naver.com",
+         "subject": "1이메일 제목입니다.",
+         "contents": "1본문 내용입니다.",
+         "replace_words": [("모집직종_1", "경비"), ("임금_1", "3,000,000"), ("아파트명_1", "꽃매버들지능"), ("근무시간_1", "09:00~16:00")],
+         "template_filename": "구인신청서양식.hwp",
+         "out_filename": "구인_신청서.hwp"
+         }
     }
 ]
