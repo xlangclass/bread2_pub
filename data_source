@@ -1,15 +1,15 @@
 [
     {
-        "target": 2, 
+        "target": 1, 
         "1":{
          "type": "경비",
          "to_company": "워크넷",
          "to_addr": "replay7013@gmail.com",
-         "subject": "1이메일 제목입니다.",
-         "contents": "안녕하세요,\n빵맨용역입니다.\n 워크넷에 경비원 모집공고를 첨부와 같이 요청드립니다.\n감사합니다.",
-         "replace_words": ["모집직종_1_SEP_경비", "임금_1_SEP_3,000,000", "아파트명_1_SEP_꽃매버들지능", "근무시간_1_SEP_09:00~16:00"],
+         "subject": "NEW TEST 1이메일 제목입니다.",
+         "contents": "NEW 안녕하세요,\n빵맨용역입니다.\n 워크넷에 경비원 모집공고를 첨부와 같이 요청드립니다.\n감사합니다.",
+         "replace_words": ["모집직종_1_SEP_경비", "임금_1_SEP_3,000,000", "아파트명_1_SEP_NEW 꽃매버들지능", "근무시간_1_SEP_09:00~16:00"],
          "template_filename": "구인신청서양식.hwp",
-         "out_filename": "구인_신청서.hwp"
+         "out_filename": "구인_신청서_NEW.hwp"
          }, 
         "2":{
          "type": "미화",
